@@ -1,0 +1,203 @@
+/*
+
+Theme Name: X - Child Theme: Integrity Light
+Theme URI: http://theme.co/x/
+Author: Themeco
+Author URI: http://theme.co/
+Description: Make all of your modifications to the light version of Integrity in this child theme.
+Version: 1.0.0
+Template: x
+
+*/
+
+@import url( '../x/framework/css/dist/site/stacks/integrity-light.css' );
+
+
+
+/* ====================================================== */
+/* GLOBAL */
+/* ====================================================== */
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover,
+.h1 a:hover,
+.h2 a:hover,
+.h3 a:hover,
+.h4 a:hover,
+.h5 a:hover,
+.h6 a:hover {
+  color: #00ccff;
+}
+
+/* Blue band */
+.bg-blue {
+  background-color: #00ccff !important;
+}
+
+.bg-blue h1 a,
+.bg-blue h2 a,
+.bg-blue h3 a,
+.bg-blue h4 a,
+.bg-blue h5 a,
+.bg-blue h6 a,
+.bg-blue .h1 a,
+.bg-blue .h2 a,
+.bg-blue .h3 a,
+.bg-blue .h4 a,
+.bg-blue .h5 a,
+.bg-blue .h6 a {
+  color: #fff;
+}
+
+.bg-blue h1 a:hover,
+.bg-blue h2 a:hover,
+.bg-blue h3 a:hover,
+.bg-blue h4 a:hover,
+.bg-blue h5 a:hover,
+.bg-blue h6 a:hover,
+.bg-blue .h1 a:hover,
+.bg-blue .h2 a:hover,
+.bg-blue .h3 a:hover,
+.bg-blue .h4 a:hover,
+.bg-blue .h5 a:hover,
+.bg-blue .h6 a:hover {
+  color: #606060;
+}
+
+/* ====================================================== */
+/* CONTACT PAGE */
+/* ====================================================== */
+input.x-btn-block { width: 100%; }
+
+
+/* ====================================================== */
+/* FITTINGS PAGE */
+/* ====================================================== */
+@media (max-width: 767px) {
+  .x-pricing-table { margin-bottom: 0px !important; }
+  .x-pricing-column { margin-bottom: 50px !important; }
+  .x-pricing-column:last-child { margin-bottom: 0 !important; }
+}
+
+.x-pricing-column a { display: block; }
+
+
+
+.actions .coupon{ margin:20px 0 0 0;}
+.cart_totals .cart-subtotal td , .cart_totals .order-total td{ text-align: right}
+
+.x-btn, .button, [type="submit"] {float:none !important}
+
+/*
+
+Theme Name: X - Child Theme: Integrity Light
+Theme URI: http://theme.co/x/
+Author: Themeco
+Author URI: http://theme.co/
+Description: Make all of your modifications to the light version of Integrity in this child theme.
+Version: 1.0.0
+Template: x
+
+*/
+
+@import url( '../x/framework/css/site/stacks/integrity-light.css' );
+
+
+
+/* ====================================================== */
+/* GLOBAL */
+/* ====================================================== */
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover,
+.h1 a:hover,
+.h2 a:hover,
+.h3 a:hover,
+.h4 a:hover,
+.h5 a:hover,
+.h6 a:hover {
+  color: #00ccff;
+}
+
+/* Blue band */
+.bg-blue {
+  background-color: #00ccff !important;
+}
+
+.bg-blue h1 a,
+.bg-blue h2 a,
+.bg-blue h3 a,
+.bg-blue h4 a,
+.bg-blue h5 a,
+.bg-blue h6 a,
+.bg-blue .h1 a,
+.bg-blue .h2 a,
+.bg-blue .h3 a,
+.bg-blue .h4 a,
+.bg-blue .h5 a,
+.bg-blue .h6 a {
+  color: #fff;
+}
+
+.bg-blue h1 a:hover,
+.bg-blue h2 a:hover,
+.bg-blue h3 a:hover,
+.bg-blue h4 a:hover,
+.bg-blue h5 a:hover,
+.bg-blue h6 a:hover,
+.bg-blue .h1 a:hover,
+.bg-blue .h2 a:hover,
+.bg-blue .h3 a:hover,
+.bg-blue .h4 a:hover,
+.bg-blue .h5 a:hover,
+.bg-blue .h6 a:hover {
+  color: #606060;
+}
+
+/* ====================================================== */
+/* CONTACT PAGE */
+/* ====================================================== */
+input.x-btn-block { width: 100%; }
+
+
+/* ====================================================== */
+/* FITTINGS PAGE */
+/* ====================================================== */
+@media (max-width: 767px) {
+  .x-pricing-table { margin-bottom: 0px !important; }
+  .x-pricing-column { margin-bottom: 50px !important; }
+  .x-pricing-column:last-child { margin-bottom: 0 !important; }
+}
+
+.x-pricing-column a { display: block; }
+
+
+
+.actions .coupon{ margin:20px 0 0 0;}
+.cart_totals .cart-subtotal td , .cart_totals .order-total td{ text-align: right}
+
+.x-btn, .button, [type="submit"] {float:none !important}
+
+.voucher-fields-wrapper .voucher-fields .voucher-image-option{ display: none !important;}
+.summary .cart .single_add_to_cart_button.button{ float:right !important;}
+.woocommerce table.shop_table td.actions .button{ float:right !important;}
+.woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout a.button{ float:right !important;}
+.summary .product_meta{ width:100%; float:left; margin-top:15px;}
+.woocommerce #order_review .place-order input.button{ float:right !important;}
+.woocommerce-checkout-payment .place-order p.terms{ width:auto !important; float:left !important;}
+.woocommerce-checkout-payment .place-order p.terms input.input-checkbox{ float:left !important; margin:6px 5px 0 0 !important;}
+.woocommerce-checkout-payment .place-order p.terms label.checkbox{ float:right !important;}
+
+
+.order_item .product-name small {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.woocommerce-message a.button{ margin-left:0px !important}
